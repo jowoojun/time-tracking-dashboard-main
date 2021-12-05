@@ -5,7 +5,7 @@
 
 .attribution {
   font-size: 11px;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 .attribution a {
@@ -169,7 +169,8 @@ input[type="radio"]:checked ~ .user-menu-text {
   }
 
   .attribution {
-    width: 100%;
+    position: absolute;
+    bottom: 100px;
   }
 
   .user-container {
