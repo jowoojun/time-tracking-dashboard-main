@@ -21,7 +21,7 @@
 <body>
   <section class="page">
     <header class="user-container">
-      <div class="user-info">
+      <div class="user-info" role="user-info">
         <figure class="user-photo" style="background-image: url(images/image-jeremy.png);"></figure>
         <div class="user-profile">
           <p class="default-text">Report for</p>
@@ -31,17 +31,16 @@
       <ul class="user-menu">
         <li class="user-menu-item">
           <input type="radio" id="daily" name="date" onclick="handleClick(this);" value="daily" checked>
-          <label for="daily" class="user-menu-text">Daily</label>
+          <label role="daily" for="daily" class="user-menu-text">Daily</label>
         </li>
         <li class="user-menu-item">
           <input type="radio" id="weekly" name="date" onclick="handleClick(this);" value="weekly">
-          <label for="weekly" class="user-menu-text">Weekly</label>
+          <label role="weekly" for="weekly" class="user-menu-text">Weekly</label>
         </li>
         <li class="user-menu-item">
           <input type="radio" id="monthly" name="date" onclick="handleClick(this);" value="monthly">
-          <label for="monthly" class="user-menu-text">Monthly</label>
+          <label role="monthly" for="monthly" class="user-menu-text">Monthly</label>
         </li>
-        <p id="label"></p>
       </ul>
     </header>
 
@@ -50,17 +49,17 @@
         <li id="work" class="card-item">
           <figure class="card-image" style="background-image: url(images/icon-work.svg)"></figure>
           <div class="card-detail">
-            <div class="card-desc">
+            <div class="card-desc" role="card-desc">
               <p class="card-title">Work</p>
               <img src="images/icon-ellipsis.svg" alt="img" class="card-ellipsis">
             </div>
             <div class="card-time">
-              <p class="card-title-time time-daily active">5hrs</p>
-              <p class="card-title-time time-weekly">32hrs</p>
-              <p class="card-title-time time-monthly">103hrs</p>
-              <p class="default-text time-daily active">Yesterday - 7hrs</p>
-              <p class="default-text time-weekly">Last Week - 36hrs</p>
-              <p class="default-text time-monthly">Last Month - 128hrs</p>
+              <p role="card-time" class="card-title-time time-daily active">5hrs</p>
+              <p role="card-time" class="card-title-time time-weekly">32hrs</p>
+              <p role="card-time" class="card-title-time time-monthly">103hrs</p>
+              <p role="card-time" class="default-text time-daily active">Yesterday - 7hrs</p>
+              <p role="card-time" class="default-text time-weekly">Last Week - 36hrs</p>
+              <p role="card-time" class="default-text time-monthly">Last Month - 128hrs</p>
             </div>
           </div>
         </li>
@@ -68,17 +67,17 @@
         <li id="play" class="card-item">
           <figure class="card-image" style="background-image: url(images/icon-play.svg)"></figure>
           <div class="card-detail">
-            <div class="card-desc">
+            <div class="card-desc" role="card-desc">
               <p class="card-title">Play</p>
               <img src="images/icon-ellipsis.svg" alt="img" class="card-ellipsis">
             </div>
             <div class="card-time">
-              <p class="card-title-time time-daily active">1hrs</p>
-              <p class="card-title-time time-weekly">10hrs</p>
-              <p class="card-title-time time-monthly">23hrs</p>
-              <p class="default-text time-daily active">Yesterday - 2hrs</p>
-              <p class="default-text time-weekly">Last Week - 8hrs</p>
-              <p class="default-text time-monthly">Last Month - 29hrs</p>
+              <p role="card-time" class="card-title-time time-daily active">1hrs</p>
+              <p role="card-time" class="card-title-time time-weekly">10hrs</p>
+              <p role="card-time" class="card-title-time time-monthly">23hrs</p>
+              <p role="card-time" class="default-text time-daily active">Yesterday - 2hrs</p>
+              <p role="card-time" class="default-text time-weekly">Last Week - 8hrs</p>
+              <p role="card-time" class="default-text time-monthly">Last Month - 29hrs</p>
             </div>
           </div>
         </li>
@@ -86,17 +85,17 @@
         <li id="study" class="card-item">
           <figure class="card-image" style="background-image: url(images/icon-study.svg)"></figure>
           <div class="card-detail">
-            <div class="card-desc">
+            <div class="card-desc" role="card-desc">
               <p class="card-title">Study</p>
               <img src="images/icon-ellipsis.svg" alt="img" class="card-ellipsis">
             </div>
             <div class="card-time">
-              <p class="card-title-time time-daily active">0hrs</p>
-              <p class="card-title-time time-weekly">4hrs</p>
-              <p class="card-title-time time-monthly">13hrs</p>
-              <p class="default-text time-daily active">Yesterday - 1hrs</p>
-              <p class="default-text time-weekly">Last Week - 7hrs</p>
-              <p class="default-text time-monthly">Last Month - 19hrs</p>
+              <p role="card-time" class="card-title-time time-daily active">0hrs</p>
+              <p role="card-time" class="card-title-time time-weekly">4hrs</p>
+              <p role="card-time" class="card-title-time time-monthly">13hrs</p>
+              <p role="card-time" class="default-text time-daily active">Yesterday - 1hrs</p>
+              <p role="card-time" class="default-text time-weekly">Last Week - 7hrs</p>
+              <p role="card-time" class="default-text time-monthly">Last Month - 19hrs</p>
             </div>
           </div>
         </li>
@@ -104,17 +103,17 @@
         <li id="exercise" class="card-item">
           <figure class="card-image" style="background-image: url(images/icon-exercise.svg)"></figure>
           <div class="card-detail">
-            <div class="card-desc">
+            <div class="card-desc" role="card-desc">
               <p class="card-title">Exercise</p>
               <img src="images/icon-ellipsis.svg" alt="img" class="card-ellipsis">
             </div>
             <div class="card-time">
-              <p class="card-title-time time-daily active">1hrs</p>
-              <p class="card-title-time time-weekly">4hrs</p>
-              <p class="card-title-time time-monthly">11hrs</p>
-              <p class="default-text time-daily active">Yesterday - 1hrs</p>
-              <p class="default-text time-weekly">Last Week - 5hrs</p>
-              <p class="default-text time-monthly">Last Month - 18hrs</p>
+              <p role="card-time" class="card-title-time time-daily active">1hrs</p>
+              <p role="card-time" class="card-title-time time-weekly">4hrs</p>
+              <p role="card-time" class="card-title-time time-monthly">11hrs</p>
+              <p role="card-time" class="default-text time-daily active">Yesterday - 1hrs</p>
+              <p role="card-time" class="default-text time-weekly">Last Week - 5hrs</p>
+              <p role="card-time" class="default-text time-monthly">Last Month - 18hrs</p>
             </div>
           </div>
         </li>
@@ -122,17 +121,17 @@
         <li id="social" class="card-item">
           <figure class="card-image" style="background-image: url(images/icon-social.svg)"></figure>
           <div class="card-detail">
-            <div class="card-desc">
+            <div class="card-desc" role="card-desc">
               <p class="card-title">Social</p>
               <img src="images/icon-ellipsis.svg" alt="img" class="card-ellipsis">
             </div>
             <div class="card-time">
-              <p class="card-title-time time-daily active">1hrs</p>
-              <p class="card-title-time time-weekly">5hrs</p>
-              <p class="card-title-time time-monthly">21hrs</p>
-              <p class="default-text time-daily active">Yesterday - 3hrs</p>
-              <p class="default-text time-weekly">Last Week - 10hrs</p>
-              <p class="default-text time-monthly">Last Month - 23hrs</p>
+              <p role="card-time" class="card-title-time time-daily active">1hrs</p>
+              <p role="card-time" class="card-title-time time-weekly">5hrs</p>
+              <p role="card-time" class="card-title-time time-monthly">21hrs</p>
+              <p role="card-time" class="default-text time-daily active">Yesterday - 3hrs</p>
+              <p role="card-time" class="default-text time-weekly">Last Week - 10hrs</p>
+              <p role="card-time" class="default-text time-monthly">Last Month - 23hrs</p>
             </div>
           </div>
         </li>
@@ -140,17 +139,17 @@
         <li id="self-care" class="card-item">
           <figure class="card-image" style="background-image: url(images/icon-self-care.svg)"></figure>
           <div class="card-detail">
-            <div class="card-desc">
+            <div class="card-desc" role="card-desc">
               <p class="card-title">Self Care</p>
               <img src="images/icon-ellipsis.svg" alt="img" class="card-ellipsis">
             </div>
             <div class="card-time">
-              <p class="card-title-time time-daily active">0hrs</p>
-              <p class="card-title-time time-weekly">2hrs</p>
-              <p class="card-title-time time-monthly">7hrs</p>
-              <p class="default-text time-daily active">Yesterday - 1hrs</p>
-              <p class="default-text time-weekly">Last Week - 2hrs</p>
-              <p class="default-text time-monthly">Last Month - 11hrs</p>
+              <p role="card-time" class="card-title-time time-daily active">0hrs</p>
+              <p role="card-time" class="card-title-time time-weekly">2hrs</p>
+              <p role="card-time" class="card-title-time time-monthly">7hrs</p>
+              <p role="card-time" class="default-text time-daily active">Yesterday - 1hrs</p>
+              <p role="card-time" class="default-text time-weekly">Last Week - 2hrs</p>
+              <p role="card-time" class="default-text time-monthly">Last Month - 11hrs</p>
             </div>
           </div>
         </li>
@@ -159,7 +158,7 @@
     </article>
     
   </section>
-  <div class="attribution">
+  <div class="attribution" role="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/jowoojun" target="_blank">jowoojun</a>.
   </div>
