@@ -234,9 +234,10 @@ input[type="radio"]:checked ~ .user-menu-text {
 
 @media (min-width: 1439px) {
   .page {
-    display: grid;
-    grid-template-columns: 0.3333fr 1fr;
-    width: 77%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-list {
@@ -244,7 +245,13 @@ input[type="radio"]:checked ~ .user-menu-text {
     grid-template-rows: repeat(2, 1fr);
   }
 
+  .user-container {
+    width: 255px;
+    height: 518px;
+  }
+
   .card-item {
+    width: 255px;
     height: 244px;
   }
 
