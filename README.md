@@ -25,9 +25,9 @@ Users should be able to:
 ### Screenshot
 
 - Desktop
-  ![Desktop screenshot](screenshot/Desktop.JPG)
+  ![Desktop screenshot](screenshot/Desktop.jpg)
 - Mobile
-  ![Mobile screenshot](screenshot/Mobile.JPG)
+  ![Mobile screenshot](screenshot/Mobile.jpg)
 
 ### Links
 
